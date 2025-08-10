@@ -1,0 +1,62 @@
+# AI-related files and directories
+CLAUDE.md
+INITIAL.md
+INITIAL_EXAMPLE.md
+PRPs/
+use-cases/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database and credentials
+*.env
+.env.local
+.env.*.local
+config.json
+credentials.json
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# PostgreSQL specific
+*.sql.swp
+postgresql-*.log
+
+# Data files (optional - uncomment if you don't want to include sample data)
+# examples/amazon.csv
